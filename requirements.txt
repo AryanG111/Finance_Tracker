@@ -1,0 +1,21 @@
+Flask==3.0.0
+Werkzeug==3.0.1
+```
+
+#### **📁 New File Structure**
+```
+finance-tracker/
+│
+├── api/
+│   └── index.py          ← Main Flask app (renamed!)
+│
+├── templates/            ← Create this folder!
+│   ├── base.html
+│   ├── index.html
+│   ├── transactions.html
+│   ├── budgets.html
+│   ├── savings.html
+│   └── reports.html
+│
+├── vercel.json
+└── requirements.txt
